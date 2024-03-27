@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.vts{
+   font-style: oblique;
+   color: white;
+   font-size: 30px;
+   animation: kart 4s infinite linear;
+}
+@keyframes kart{
+    from{
+        color: rgb(253, 253, 253);
+    }
+    to{
+        color: rgb(255, 0, 76);
+    }
+}
+body{
+    background-color: rgb(199, 199, 200) !important;
+}
+.navbar .navbar-brand{
+    font-weight: 800;
+    font-size: x-large;
+    color: rgb(227, 230, 17) !important;
+}
+.navbar{
+    box-shadow: 2px 5px 10px  rgb(155, 153, 153);
+    background-color: rgb(24, 58, 249);
+    position: static;
+    
+}
+.navbar a{
+    color: white !important;
+}
+ .dropdown .dropdown-item{
+    color: black !important;
+}
+.dropdown button{
+    color: white !important;
+}
+/* home page */
+
+/* .homepage{
+    height: 40vh;
+    width: 100%;
+    background-color: aqua;
+} */
+
+
+
+/* deals item 
+*/
+.section2,.section3,.section4{
+    background-color: rgb(213, 213, 217);
+}
+.card{
+   text-align: center;
+   
+}
+#cardstyle{
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px rgb(58, 53, 53) , inset 3px 3px 5px rgb(107, 107, 107);
+ 
+                
+}
